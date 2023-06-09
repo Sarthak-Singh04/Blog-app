@@ -1,0 +1,31 @@
+import Link from "next/link"
+import Centerdiv from "./Layout/Centerdiv"
+
+
+const Navbar = () => {
+  return (
+    <div className="sticky top-0 left-0 right-0 border-b-2 bg-white opacity-90 backdrop-blur-md">
+
+<Centerdiv>
+            <div className=" flex items-center justify-between px-4 py-6">
+      <Link href="/"> <h1 className="text-[30px] font-bold  leading-tight">Explorer</h1></Link> 
+        <ul className="flex justify-center items-center gap-x-12 mr-16">
+            <Link href="/about">            <li className="px-2 leading-tight">About </li> </Link>
+            <Link href="/company">
+            <li className="px-2 leading-tight">Company</li></Link>
+
+
+
+        </ul>
+    </div>
+
+    </Centerdiv>
+
+    </div>
+    
+
+
+  )
+}
+
+export default Navbar
