@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image";
 
 const CenterImage = () => {
@@ -15,7 +14,7 @@ const CenterImage = () => {
         <div className="test-lg font-bold">#DiscoverHiddenGems ✨</div>
         <h3 className="text-3xl md:text-4xl font-semibold mt-3 mb-4">Embark on an Unforgettable Journey! 🌍✈️</h3>
         <p className="max-w-lg sm:text-bsm text-lg leading-tight">
-          Join me in exploring hidden gems and uncovering the beauty of lesser-known destinations. Let's wander off the beaten path and create unforgettable memories! 🗺️🌟
+          Join me in exploring hidden gems and uncovering the beauty of lesser-known destinations. Let&apos;s wander off the beaten path and create unforgettable memories! 🗺️🌟
         </p>
       </div>
       <div className="flex flex-wrap gap-2 md:gap-4  items-center">
@@ -23,11 +22,8 @@ const CenterImage = () => {
           Expore us 🌐
         </button>
         <form className="mt-10">
-
-        <input className=" relative z-10 px-4 py-2 text-base rounded-md outline-none bg-white/100 focus:ring-1 placeholder:text-sm" placeholder="write your email"></input>
-
+          <input className="relative z-10 px-4 py-2 text-base rounded-md outline-none bg-white/100 focus:ring-1 placeholder:text-sm" placeholder="write your email" />
         </form>
-
       </div>
     </div>
   );
