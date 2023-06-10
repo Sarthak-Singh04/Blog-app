@@ -11,7 +11,7 @@ const Footer = () => {
         <Centerdiv>
             <div>
                 <h2 className="text-xl font-bold leading-tight">{siteconfig.sitename}</h2>
-                <p className="max-w-md mt-2 text-[16px] text-neutral-700 leading-tight">{siteconfig.description}</p>
+                <p className="max-w-md mt-2 text-sm text-neutral-700 leading-snug">{siteconfig.description}</p>
          
             </div>
             <div className="mt-6 flex flex-wrap justify-between gap-4">
