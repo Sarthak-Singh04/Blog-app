@@ -8,7 +8,7 @@ const Navbar = () => {
 
 <Centerdiv>
             <div className=" flex items-center justify-between px-4 py-6">
-      <Link href="/"> <h1 className=" text-lg md:text-[30px] font-bold  leading-tight">Dharmic Ecology</h1></Link> 
+      <Link href="/"> <h1 className=" text-lg md:text-[30px] font-bold  leading-tight">AI Planet</h1></Link> 
         <ul className="flex justify-center items-center gap-x-2 md:gap-x-12 md:mr-16">
             <Link href="/about">            <li className="px-2 leading-tight">About </li> </Link>
             <Link href="/company">
